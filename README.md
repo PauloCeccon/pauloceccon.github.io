@@ -2,7 +2,7 @@
 Paulo Ceccon
 ----
 
-[Apresentação Pessoal](http://pauloceccon.github.ie)
+[Minha pagina web pelo github](http://www.pauloceccon.github.ie)
 
 
 Site de apresentação pessoal, clique no link acima para acessar.
