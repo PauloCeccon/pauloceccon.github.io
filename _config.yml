@@ -1,0 +1,5 @@
+name: Vincent Dutordoir
+markdown: kramdown
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+kramdown:
+  math_engine: mathjax

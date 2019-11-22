@@ -1,0 +1,94 @@
+
++MQ(S)
+  .about-lock
+    margin: auto
+    .face-img
+      +size(60px)
+      +display(flex)
+      margin: auto
+      border-radius: 60%
+      background: url(../img/me.png) no-repeat
+      background-size: cover
+
+
+    .face1-img
+      +size(60px)
+      border-radius: 50%
+      background: url(../img/me.png)
+      background-size: cover
+      margin: auto
+    .flip-container
+      perspective: 1000
+      &:hover .flipper, &.hover .flipper
+        transform: rotateY(180deg)
+      +size(60px)
+      border-radius: 50%
+      +order(2)
+    .front, .back
+      +size(60px)
+      border-radius: 50%
+
+    .flipper
+      transition: 0.6s
+      transform-style: preserve-3d
+      position: relative
+
+    .front, .back
+      backface-visibility: hidden
+      position: absolute
+      top: 0
+      left: 0
+
+    .front
+      z-index: 2
+      transform: rotateY(0deg)
+
+    .back
+      transform: rotateY(180deg)
+
+    .flaticon-github
+      display: none
+    .flaticon-linkedin
+      display: none
+
+
++MQ(M)
+  .about-lock
+    max-width: 680px
+    +display(flex)
+    margin: 0 auto
+    +align-items(center)
+    +justify-content(space-between)
+
+    .flaticon-github
+      +order(3)
+      display: block
+    .flaticon-linkedin
+      +order(1)
+      display: block
+
+    .glyph-icon
+      &:hover
+        +transform(scale(1.2))
+
+    .glyph-icon:before
+      display: block
+      font-size: 60px
+      line-height: 70px
+      color: $color-1
+      +transition()
+      margin-left: 0
+
++MQ(L)
+  .about-lock
+    max-width: 980px
+
+
+
+.blurb
+  max-width: 750px
+  padding: 0 15px
+  margin: 50px auto
+  font-size: 22px
+  font-weight: 30
+  text-align: left
