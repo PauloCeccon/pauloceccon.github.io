@@ -1,6 +1,6 @@
-=============================
+
 Paulo Ceccon
-=============================
+----
 
 [Apresentação Pessoal](http://pauloceccon.github.ie)
 
