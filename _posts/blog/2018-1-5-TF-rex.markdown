@@ -12,7 +12,7 @@ Todo o projeto sera desenvolvido com Arduino Uno e alguns Módulos que serão de
 Dentro da estufa teremos sensores de temperatura, O2 e úmidade do sol. Com agentes de iluminação artificial e irrigação automática.
 Os códigos serão disponibilizados para download via Github.
 
-![Estufa Automatizada](https://drive.google.com/file/d/1zNsh8aI-GtRGTtp9EsITax6Db2tcb8PN/view?usp=sharing)
+![Imagem de Capa]()
 
 
 ## Visão Geral
