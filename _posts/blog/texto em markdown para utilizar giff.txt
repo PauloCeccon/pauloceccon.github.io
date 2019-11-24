@@ -1,0 +1,1 @@
+![T-Rex gane played by Q-learner](https://github.com/wayou/t-rex-runner/blob/gh-pages/assets/screenshot.gif?raw=true)
